@@ -3,17 +3,23 @@
 
 footer {
     display: flex;
-    justify-content: space-between; /* Distribuye las columnas con espacio entre ellas */
-    padding: 20px;
-    background-color: #495e57;  /* Color de fondo del footer */
-    color: white;  /* Color de texto */
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #495e57;  
+    color: white; 
     
   }
 
-footer > li{
-  list-style: none;  
+footer  li{
+  list-style: none; 
+  line-height: 40px;
+  
 }
 
 footer li> a{
-  color: white;
+  color: white;  
+}
+
+img{
+  padding-left: 60px;
 }

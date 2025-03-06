@@ -35,17 +35,17 @@ main {
 
 h1{
   font-family: "Markazi Text", regular;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 h2{
   font-family: "Markazi Text", regular;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 h3{
-  font-family: "Karla", regular;
-  font-size: 18px;
+  font-family: "Markazi Text", regular;
+  font-size: 20px;
 }
 
 p {
@@ -54,7 +54,7 @@ p {
 }
 
 li {
-  font-family: 'Karla', regular;
+  font-family: 'Karla-light', regular;
   font-size: 20px;
   list-style: none;
   text-decoration: none;
@@ -64,3 +64,4 @@ a, a:visited{
   text-decoration: none;
 
 }
+

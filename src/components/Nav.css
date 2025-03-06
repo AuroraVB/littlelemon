@@ -1,9 +1,9 @@
 /* Nav */
 nav {
-    display: inline-flex;  /* Usamos Flexbox para alinear los enlaces */
-    justify-content: center;  /* Centra los enlaces en el nav */
-    padding-left: 30px;
-    flex-direction: row;  /* Asegura que los enlaces estén en fila */
+    display: inline-flex;  
+    justify-content: center;  
+    padding-left: 100px;
+    flex-direction: row;  
     align-items: center;
     
   }
