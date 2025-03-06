@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Markazi Text';
+  src: url('fonts/MarkaziText-VariableFont_wght.ttf');
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Karla";
+  src: url('fonts/Karla-Medium.ttf');
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'Karla-light';
+  src: url('fonts/Karla-Light.ttf');
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+main {
+  flex: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  font-family: "Markazi Text", regular;
+  font-size: 30px;
+}
+
+h2{
+  font-family: "Markazi Text", regular;
+  font-size: 24px;
+}
+
+h3{
+  font-family: "Karla", regular;
+  font-size: 18px;
+}
+
+p {
+  font-family: "Karla-light", regular;
+  font-size: 16px;
+}
+
+li {
+  font-family: 'Karla', regular;
+  font-size: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+
+a, a:visited{
+  text-decoration: none;
+
 }

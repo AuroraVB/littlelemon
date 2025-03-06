@@ -1,6 +1,7 @@
 import React from "react";
+import "./Nav.css"; 
 
-function Nav (){
+function Nav(){
     return(
         <nav>
             <ul>
@@ -12,8 +13,7 @@ function Nav (){
                 <li><a href="#login">Login</a></li>
             </ul>
         </nav>
-
     )
 }
 
-export default Nav;
+export default Nav; 

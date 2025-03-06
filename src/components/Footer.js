@@ -1,11 +1,13 @@
 import React from "react";
-import lofo from "../images/logo-footer.png";
+import lofo from "../images/logofooter.png";
+import "./footer.css";
 
 function Footer(){
     return(
         <footer>
             <img src={lofo} alt="logofoot" weight={162} height={279}></img>
-            <ul>
+            <ul class="naveg">
+                <h2>Doormat Navigation</h2>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#menu">Menu</a></li>
@@ -13,14 +15,14 @@ function Footer(){
                 <li><a href="#order">Order Online</a></li>
                 <li><a href="#login">Login</a></li>
             </ul>
-            <ul>
-                <p>Contact</p>
+            <ul className="contact">
+                <h2>Contact</h2>
                 <li>Address</li>
                 <li>Email</li>
                 <li>Phone Number</li>
             </ul>
-            <ul>
-                <p>Social Media</p>
+            <ul className="socialmedia">
+                <h2>Social Media</h2>
                 <li><a href="www.facebook.com">Facebook</a></li>
                 <li><a href="www.instagram.com">Instagram</a></li>
             </ul>

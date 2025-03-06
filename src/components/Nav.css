@@ -1,0 +1,30 @@
+/* Nav */
+nav {
+    display: inline-flex;  /* Usamos Flexbox para alinear los enlaces */
+    justify-content: center;  /* Centra los enlaces en el nav */
+    padding-left: 30px;
+    flex-direction: row;  /* Asegura que los enlaces estén en fila */
+    align-items: center;
+    
+  }
+  
+  nav li {
+    list-style: none;  /* Elimina los puntos de la lista */
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;  /* Espacio horizontal entre los enlaces */
+    display: inline-block;  /* Los elementos de la lista se comportan como en línea */
+    justify-content: center;  /* Centra los elementos dentro del li */
+  }
+
+  nav a{
+    color: black;
+
+  }
+  
+  @media (min-width: 768px) {
+    nav {
+      justify-content: space-between;  /* Distribuye los enlaces con espacio entre ellos */
+    }
+  }
+  
