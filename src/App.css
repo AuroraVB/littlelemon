@@ -22,12 +22,7 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
+
 
 main {
   flex: 1;
@@ -35,17 +30,23 @@ main {
 
 h1{
   font-family: "Markazi Text", regular;
-  font-size: 40px;
+  font-size: 56px;
 }
 
 h2{
   font-family: "Markazi Text", regular;
-  font-size: 30px;
+  font-size: 32px;
 }
 
 h3{
   font-family: "Markazi Text", regular;
   font-size: 20px;
+}
+
+h4{
+  font-family: "Karla-light", regular;
+  font-size: 16px;
+  color: #ee9972 ;
 }
 
 p {
@@ -65,3 +66,12 @@ a, a:visited{
 
 }
 
+button {
+  font-family: "Markazi Text", regular;
+  font-size: 18px;
+  background-color: #F4CE14;
+  padding: 10px;
+  border-radius: 1rem;
+  border: none;
+  margin-top: 10px;
+}

@@ -2,10 +2,15 @@
 nav {
     display: inline-flex;  
     justify-content: center;  
-    padding-left: 100px;
+    padding-left: 550px;
     flex-direction: row;  
     align-items: center;
+    gap: 30px;
     
+  }
+
+  nav ul{
+    padding-left: 20px;
   }
   
   nav li {
@@ -15,6 +20,7 @@ nav {
     margin: 0 20px;  /* Espacio horizontal entre los enlaces */
     display: inline-block;  /* Los elementos de la lista se comportan como en línea */
     justify-content: center;  /* Centra los elementos dentro del li */
+    
   }
 
   nav a{

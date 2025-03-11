@@ -1,18 +1,15 @@
-/* Estilos para el footer */
-
-
 footer {
     display: flex;
     justify-content: space-around;
     padding: 15px;
-    background-color: #495e57;  
+    background-color: #495e57;
     color: white; 
     
   }
 
 footer  li{
   list-style: none; 
-  line-height: 40px;
+  line-height: 35px;
   
 }
 
@@ -20,6 +17,6 @@ footer li> a{
   color: white;  
 }
 
-img{
+.logofoot{
   padding-left: 60px;
 }

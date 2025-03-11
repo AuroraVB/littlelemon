@@ -1,0 +1,45 @@
+.Action {
+    background-color: #495e57;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+} 
+
+.Action h1 {
+    color: #F4CE14;
+    margin-bottom: 10px;
+}
+
+.Action h2, p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.info {
+    width: 420px;
+    height: 331px;
+    margin: 20px;
+}
+
+#btnreserve {
+    background-color:  #F4CE14;
+    padding: 10px;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+.imagen{
+    overflow: hidden;
+    display: flex;
+    padding-left: 70px;
+}
+.imagen > img {
+    border-radius: 1rem;
+    max-width: 100%;
+    display: block;
+}
+

@@ -1,0 +1,63 @@
+.specials-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.description{
+    color: #495e57;
+}
+
+.tittle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 750px;
+}
+
+.tittle > button{
+    margin-bottom: 1rem;
+    font-size: 25px;
+}
+
+.specials-items{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.GreekSalad, .Bruchetta, .LemonDessert{
+    background-color: #edefee;
+    text-align: center;
+    width: 264px;
+    height: 439px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
+}
+
+.h3-h4container{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding: 20px;
+}
+
+.GreekSalad img, .Bruchetta img, .LemonDessert img {
+    border-radius:1rem;
+    width: 100%;
+    max-width: 264px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

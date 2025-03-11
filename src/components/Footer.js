@@ -5,7 +5,7 @@ import "./footer.css";
 function Footer(){
     return(
         <footer>
-            <img src={lofo} alt="logofoot" weight={162} height={279}></img>
+            <img src={lofo} alt="logofoot" weight={162} height={279} className="logofooot"/>
             <ul class="naveg">
                 <h2>Doormat Navigation</h2>
                 <li><a href="#home">Home</a></li>
