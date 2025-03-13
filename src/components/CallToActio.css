@@ -1,7 +1,7 @@
 .Action {
     background-color: #495e57;
     display: flex;
-    padding: 10px;
+    padding: 30px;
     justify-content: center;
     align-items: center;
     gap: 80px;

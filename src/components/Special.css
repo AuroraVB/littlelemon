@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     align-items: center;
 }
 
@@ -35,15 +36,14 @@
 .GreekSalad, .Bruchetta, .LemonDessert{
     background-color: #edefee;
     text-align: center;
-    width: 264px;
-    height: 439px;
+    width: 450px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    
 }
 
 .h3-h4container{
@@ -56,8 +56,13 @@
 .GreekSalad img, .Bruchetta img, .LemonDessert img {
     border-radius:1rem;
     width: 100%;
-    max-width: 264px;
+    max-width: 450px;
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.orderlink{
+    text-decoration: none;
+    color: black;
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import CallToAction from "./CallToAction";
 import Special from "./Special";
+import Costumers from "./Costumesr";
+import Info from "./Info";
 
 
 function Main(){
@@ -8,6 +10,8 @@ function Main(){
         <main>
            <CallToAction/>
            <Special/>
+           <Costumers/>
+           <Info/>
         </main>
 
     )

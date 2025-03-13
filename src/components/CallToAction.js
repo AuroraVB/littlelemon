@@ -14,7 +14,7 @@ function CallToAction(){
                 <button id="btnreserve"> Reserve a Table </button>
             </div>
             <div className="imagen">
-                <img src={restaurantfood} alt="img" width={375} height={325}/>
+                <img src={restaurantfood} alt="img" width={400} height={500}/>
             </div>
        </div>
     );

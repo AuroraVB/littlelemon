@@ -7,6 +7,11 @@ footer {
     
   }
 
+footer h2{
+  color: #F4CE14;
+}  
+
+
 footer  li{
   list-style: none; 
   line-height: 35px;
