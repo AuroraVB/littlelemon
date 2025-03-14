@@ -13,7 +13,7 @@ function CallToAction(){
                 <h1> Little Lemon </h1>
                 <h2> Chicago </h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <button id="btnreserve" onClick={() => navigate("/reservations")}> Reserve a Table </button>
+                <button id="btnreserve" onClick={() => navigate("/booking")}> Reserve a Table </button>
             </div>
             <div className="imagen">
                 <img src={restaurantfood} alt="img" width={400} height={500}/>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Special.css"
-import greeksalad from "../images/greeksalad.jpg"
+import greeksalad from "../images/greeksalad.jpg";
 import bruschetta from "../images/bruschetta.jpg"
 import lemondessert from "../images/lemondessert.jpg"
 
