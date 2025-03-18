@@ -1,6 +1,7 @@
 import React from "react";
 import lofo from "../images/logofooter.png";
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 function Footer(){
     return(
