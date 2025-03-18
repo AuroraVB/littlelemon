@@ -41,12 +41,12 @@
 
 @media (max-width: 768px) {
     .confirmation {
-        width: 90%; /* 📌 Que no sea demasiado ancha */
+        width: 90%; 
         padding: 20px;
     }
 
     .confirmation h2 {
-        font-size: 35px; /* 🔥 Tamaño más legible */
+        font-size: 35px; 
     }
 
     .confirmation p {

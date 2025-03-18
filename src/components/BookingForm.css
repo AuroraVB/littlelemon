@@ -64,7 +64,7 @@ input, select {
     object-fit: cover;
 }
 
-@media (max-width: 768px) { /* Tablets y móviles grandes */
+@media (max-width: 768px) {
     .inputs {
         width: 90%;
     }
@@ -75,7 +75,7 @@ input, select {
     }
 }
 
-@media (max-width: 480px) { /* Móviles pequeños */
+@media (max-width: 480px) { 
     .inputs {
         width: 95%;
     }
@@ -86,6 +86,6 @@ input, select {
     }
 
     .Imagen img {
-        height: 250px; /* Reduce la imagen para móviles */
+        height: 250px; 
     }
 }

@@ -76,17 +76,17 @@
 
 @media (max-width: 768px) {
     .costumerCards {
-        flex-direction: column; /* 🔥 Tarjetas apiladas en móviles */
+        flex-direction: column;
         gap: 20px;
     }
 
     .costumer1, .costumer2, .costumer3, .costumer4 {
-        width: 90%; /* 📌 Ocupa casi toda la pantalla en móviles */
+        width: 90%; 
     }
 
     .infocostumer {
         flex-direction: column;
-        text-align: center; /* 📌 Ajusta disposición en móviles */
+        text-align: center; 
     }
 
     .infocostumer > img {
