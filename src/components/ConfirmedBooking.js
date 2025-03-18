@@ -1,17 +1,17 @@
 import React from "react";
-import restaurant from "../images/interior.jpg";
+import rest from "../images/friends.jpeg";
+import "./ConfirmedBooking.css";
 
 const ConfirmedBooking = () => {
   return (
-    <>
       <div className="restaurantimage">
-        <img source={restaurant} alt="restauranphoto" />
+        <img src={rest} alt="restaurantphoto" className="background-image" />
+     
+        <div className="confirmation">
+          <h2>✅ ¡Booking Confirmed!</h2>
+          <p>Thank you for making a reservation with us. See you soon! 😊</p>
+        </div>
       </div>
-      <div style={{ textAlign: "center", padding: "50px" }}>
-        <h2>✅ ¡Booking Confirmed!</h2>
-        <p>Thank you for making a reservation with us. See you soon! 😊</p>
-      </div>
-    </>
   );
 };
 

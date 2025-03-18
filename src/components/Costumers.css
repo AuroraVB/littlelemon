@@ -1,6 +1,7 @@
 .costumersSection{
     background-color: white;
     padding: 50px;
+    text-align: center;
 }
 
 .costumersSection > h2{
@@ -10,10 +11,11 @@
 }
 
 .costumerCards{
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
     margin-top: 50px;
 }
 
@@ -28,13 +30,14 @@
 }
 
 .infocostumer > img{
-    width: 146px;
-    height: 156px;
-    border-radius: 1rem;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
 }
 
 .infocostumer > h2{
     margin-left: 10px;
+    font-size: 18px;
 }
 
 .rating{
@@ -57,13 +60,42 @@
    background-color :#edefee;
    border-radius: 1rem;
    padding-right: 50px;
-   width: 450px;
+   width: 100%;
+   max-width:400px;
+   text-align: left;
 }
 
 .review{
     padding: 10px;
+    font-size: 20px;
 }
 
 .review >p{
     color: black;
+}
+
+@media (max-width: 768px) {
+    .costumerCards {
+        flex-direction: column; /* 🔥 Tarjetas apiladas en móviles */
+        gap: 20px;
+    }
+
+    .costumer1, .costumer2, .costumer3, .costumer4 {
+        width: 90%; /* 📌 Ocupa casi toda la pantalla en móviles */
+    }
+
+    .infocostumer {
+        flex-direction: column;
+        text-align: center; /* 📌 Ajusta disposición en móviles */
+    }
+
+    .infocostumer > img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .rating {
+        justify-content: center;
+        padding-left: 0;
+    }
 }

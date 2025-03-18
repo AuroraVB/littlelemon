@@ -3,35 +3,70 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 80px;
     padding: 50px;
+    flex-wrap: wrap;
+    text-align: left;
 }
 
 .infoRestaurant{
     width: 420px;
-    height: 331px;
+    height: auto;
 }
 .infoRestaurant h1{
     color: #495e57;
+
 }
 
 .infoRestaurant > p {
-    color: black
+    color: black;
+    font-size: 18px;
 
 }
 
 .imageRestaurant {
     display: flex;
     flex-direction: column;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
 }
 
 .imageRestaurant > img{
-    width: 600px;
-    height: 500px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
     border-radius: 1rem;
 }
 
 .chef2{
     margin-top: -50px;
     margin-left: 150px;
+    max-width: 200px;
+}
+
+@media (max-width: 768px) {
+    .containerInfo {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .infoRestaurant {
+        width: 90%; 
+    }
+
+    .imageRestaurant {
+        align-items: center;
+    }
+
+    .imageRestaurant > img {
+        max-width: 90%; 
+    }
+
+    .chef2 {
+        margin-top: -30px;
+        margin-left: 0;
+        max-width: 150px; 
+    }
 }
