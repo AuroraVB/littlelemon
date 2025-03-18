@@ -7,7 +7,7 @@ function Nav() {
     return (
       <nav>
         <Link to="/">
-          <img src={logo} alt="logo" width={202} height={76} />
+          <img src={logo} alt="logo" width={300} height={80} />
         </Link>
         <ul>
           <li><Link to="/">Home</Link></li>

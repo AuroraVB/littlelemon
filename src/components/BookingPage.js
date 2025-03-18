@@ -2,7 +2,7 @@ import React from "react";
 import BookingForm from "./BookingForm";
 
 function BookingPage(props) {
-  console.log("📌 BookingPage props:", props); // 👀 Verifica que `setDate` aparece aquí
+  console.log("📌 BookingPage props:", props); 
   return <BookingForm {...props} />;
 }
 

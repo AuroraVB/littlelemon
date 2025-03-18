@@ -5,7 +5,7 @@
 }
 
 @font-face {
-  font-family: "Karla";
+  font-family: 'Karla';
   src: url('fonts/Karla-Medium.ttf');
   font-style: normal;
 }
@@ -67,11 +67,16 @@ a, a:visited{
 }
 
 button {
-  font-family: "Markazi Text", regular;
+  font-family: 'Karla', sans-serif;
   font-size: 18px;
   background-color: #F4CE14;
   padding: 10px;
   border-radius: 1rem;
   border: none;
   margin-top: 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
 }
